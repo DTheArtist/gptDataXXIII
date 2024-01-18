@@ -66,3 +66,6 @@ This will start a server on http://localhost:8000. Open this URL in a web browse
 
 **Contributing
 Contributions to the ChatGPT Conversation Viewer are welcome. Please read the CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
+
+**License
+This project is licensed under the GNU Affero General Public License v3.0 - see the LICENSE file for details.
