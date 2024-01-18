@@ -1,6 +1,6 @@
 '*.json'
-'archive/'
-'archive/*'
+'_archive/'
+'_archive/*'
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
