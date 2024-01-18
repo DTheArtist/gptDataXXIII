@@ -1,6 +1,7 @@
-'*.json'
-'_archive/'
-'_archive/*'
+*.json
+_archive/
+
+.DS_Store
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
