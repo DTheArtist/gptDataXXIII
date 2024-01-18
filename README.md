@@ -1,9 +1,6 @@
 # gptDataXXIII
-***NOTE YOU MUST ADD YOUR OWN conversations.json FILE DOWNLOAD FROM YOUR EXPORTED DATA
 
----
-
-## #NOTE YOU MUST ADD YOUR OWN conversations.json FILE DOWNLOAD FROM YOUR EXPORTED DATA
+##NOTE YOU MUST ADD YOUR OWN conversations.json FILE DOWNLOAD FROM YOUR EXPORTED DATA
 
 All GPT Chat data/conversations saved local so they can be removed from GPT panel and accessed whenever needed. Contains search functionality.
 
