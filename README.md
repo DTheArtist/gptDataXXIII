@@ -1,5 +1,6 @@
 # gptDataXXIII
 All GPT Chat data/conversations saved local so they can be removed from GPT panel and accessed whenever needed. Contains search functionality. 
+
 Planned functionality : Update to Python
 Search and sort cards 
 search within each card 
