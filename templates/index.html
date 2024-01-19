@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+	<head>
+		<title>ChatGPT Data Export</title>
+		<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+		<script src="{{ url_for('static', filename='script.js') }}"></script>
+		<link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='apple-touch-icon.png') }}">
+		<link rel="icon" type="image/png" sizes="32x32" href="{{ url_for('static', filename='favicon-32x32.png') }}">
+		<link rel="icon" type="image/png" sizes="16x16" href="{{ url_for('static', filename='favicon-16x16.png') }}">
+		<link rel="manifest" href="{{ url_for('static', filename='site.webmanifest') }}">
+	</head>
+	<body>
+		<div>
+			<h1>ChatGPT Conversation Viewer </h1>
+			<h2>(add Your own conversations.json to the directory)</h2>
+		</div>
+		<div id="nav">
+			<a href="{{ url_for('index') }}">Main (HTML Template)</a>
+			<a href="{{ url_for('about') }}">About (PDF)</a>
+			<a href="{{ url_for('version') }}">Version (Raw Text)</a>
+			<a href="{{ url_for('readme') }}">Readme ().TXT / .M)</a>
+			<a href="{{ url_for('conversations') }}">My Conversations (JSON)</a>
+			<a href="{{ url_for('changelog') }}">View Changelog (Markdown)</a>
+			<a href="{{ url_for('signup') }}">Sign Up ()</a>
+		</div>
+		<div id="root">
+			<div id="searchContainer">
+				<input
+					type="text"
+					id="searchInput"
+					placeholder="Search messages..."
+				/>
+				<button onclick="searchMessages()">Search</button>
+			</div>
+		</div>
+	</body>
+</html>
